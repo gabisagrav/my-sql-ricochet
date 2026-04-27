@@ -1,6 +1,2 @@
-SELECT idCliente,
-       QtdePontos, 
-       DtAtualizacao
-FROM clientes
-
-LIMIT 10
+select idCliente, DtCriacao, DtAtualizacao
+from clientes

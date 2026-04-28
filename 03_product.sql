@@ -6,4 +6,9 @@ limit 15;
 select * 
 from produtos
 where DescNomeProduto 
-in ('Venda de Item: 18 - Cajado Arcano (250)', 'Arco Longo');
+like 'Cajado%';
+
+select * 
+from produtos
+where DescNomeProduto 
+like '%Arco%';
